@@ -1,3 +1,5 @@
+package Algorithm;
+
 import DataStructure.Graph;
 
 import java.util.Iterator;
@@ -28,7 +30,7 @@ public class DFS {
         // false by default in java)
         boolean visited[] = new boolean[n];
 
-        // Call the recursive helper function to print DFS traversal
+        // Call the recursive helper function to print Algorithm.DFS traversal
         DFSUtil(graph, start, visited);
     }
 

@@ -12,7 +12,6 @@ public class BFS {
 
         // Create a queue for Algorithm.BFS
         LinkedList<Integer> queue = new LinkedList<Integer>();
-
         LinkedList<Integer> adj[] =graph.getGraph();
 
 

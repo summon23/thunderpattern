@@ -46,7 +46,7 @@ public class NumberOfIsland {
                 // If 1 then island found
                 if (matrix[i][j] == 1 && !visitedNode[i][j]) {
                     numIsland++;
-                    // run DFS for checking neighbord node of the island
+                    // run Algorithm.DFS for checking neighbord node of the island
                     runDFS(matrix, i, j, visitedNode);
                 }
             }
